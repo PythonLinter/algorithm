@@ -1,8 +1,12 @@
 
-def bubblesort(   array):
+def bubblesort(array):
     for i in range(len(array)):
-        print(array[i])
+        for j in range(i+1, len(array)):
+            if array[j] < array[j-1]:
+                temp = array[j]
+                array[j] = array[j-1]
+                array[j-1] = temp
+    return array
 
-
-bubblesort( [2,3,5,6])
+print(bubblesort([7,3,5,6]))
 
