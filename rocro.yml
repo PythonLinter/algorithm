@@ -1,3 +1,2 @@
 inspecode:
   flake8: default
-    config-file: ""
