@@ -8,5 +8,5 @@ def bubblesort(array):
                 array[j-1] = temp
     return array
 
-print(bubblesort([7,3,5,6]))
 
+print(bubblesort([7 ,3 ,5 ,6]))
