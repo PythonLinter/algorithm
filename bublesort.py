@@ -9,4 +9,4 @@ def bubblesort(array):
     return array
 
 
-print(bubblesort([7 ,3 ,5 ,6]))
+print(bubblesort([7, 3, 5, 6]))
